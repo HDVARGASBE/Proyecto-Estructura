@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>TimeHero Main Page</title>
+        <link rel="stylesheet" href="styles.css" >
+    </head>
+    <body>
+    
+      <div id="containerg">
+          
+        <div id="header">
+          <div id="monthDisplay"></div>
+        </div>
+      <div id="horas">
+        <div>Hora</div>
+        <div>--</div>
+        <div>0-1</div>
+        <div>1-2</div>
+        <div>2-3</div>
+        <div>3-4</div>
+        <div>4-5</div>
+        <div>5-6</div>
+        <div>6-7</div>
+        <div>7-8</div>
+        <div>8-9</div>
+        <div>9-10</div>
+        <div>10-11</div>
+        <div>11-12</div>
+        <div>12-13</div>
+        <div>13-14</div>
+        <div>14-15</div>
+        <div>15-16</div>
+        <div>16-17</div>
+        <div>17-18</div>
+        <div>18-19</div>
+        <div>19-20</div>
+        <div>20-21</div>
+        <div>21-22</div>
+        <div>22-23</div>
+        <div>23-24</div>
+      </div>                 
+      <div id="container">
+          <div id="weekdays">
+            <div>Domingo</div>
+            <div>Lunes</div>
+            <div>Martes</div>
+            <div>Miercoles</div>
+            <div>Jueves</div>
+            <div>Viernes</div>
+            <div>Sabado</div>
+          </div>
+          <div id="calendar"></div>
+        </div>
+      </div>
+
+      <div id="newEventModal">
+        <h2>Nuevo Evento</h2>
+    
+        <input id="eventTitleInput" placeholder="Nombre de la rutina" />
+        <input id="eventDescriptionInput" placeholder="Descripción de la rutina" />
+        <form id="radio">
+          <label for="Pomodoro"><input id="pomodoro" type="radio" class="loginElements" value="Pomodoro" name="pomodoro-eissenhower-posec" checked>Pomodoro</label>
+          <label for="Eissenhower"><input id="eissenhower" type="radio" class="loginElements" value="Eissenhower" name="pomodoro-eissenhower-posec">Eissenhower</label>
+        	<label for="Posec"><input id="posec" type="radio" class="loginElements" value="POSEC" name="pomodoro-eissenhower-posec">Posec</label>
+        </form>
+        <button id="saveButton">Guardar</button>
+        <button id="cancelButton">Cancelar</button>
+      </div>
+      <div id="deleteEventModal">
+        <h2>Evento</h2>
+  
+        <p id="eventText"></p>
+        <p id="eventDescription"></p>
+        <p id="eventMetodology"></p>
+        <button id="closeButton">Cerrar</button>
+        <button id="deleteButton">Borrar</button>
+        
+      </div>
+        <div id="modalBackDrop"></div>
+        <script src="./calendario.js"></script>
+    </body>
+</html>

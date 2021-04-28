@@ -1,0 +1,169 @@
+body {
+  display: flex;
+  margin-top: 50px;
+  justify-content: center;
+  background-color: #b6ceee;
+}
+button {
+  width: 75px;
+  cursor: pointer;
+  box-shadow: 0px 0px 2px gray;
+  border: none;
+  outline: none;
+  padding: 5px;
+  border-radius: 5px;
+  color: white;
+}
+#conCalend{
+  width: 800px;
+  float: left;
+ background-color: #1baab5;
+}
+#header {
+  padding: 10px;
+  color: #e11818;
+  font-size: 26px;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: space-between;
+  background-color: #b6ceee;#;
+}
+#header button {
+  background-color:#92a1d1;
+}
+#container {
+  width: 770px;
+  float: left;
+ background-color: #577a7c00;
+}
+#containerg {
+  width: 850px;
+ background-color: #e8f4fa;
+
+}
+#weekdays {
+  width: 100%;
+  display: flex;
+  float: left;
+  color: #dc0f0f;
+  background-color: #577a7c00;
+}
+#weekdays div {
+  width: 100px;
+  padding: 5px
+
+}
+#calendar {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  float: left;
+  background-color: #ffffff00;
+}
+.day {
+  width: 100px;
+  padding: 10px;
+  height: 20px;
+  cursor: pointer;
+  box-sizing: border-box;
+  background-color: white;
+  margin: 3px;
+  box-shadow: 0px 0px 3px #CBD4C2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.day:hover {
+  background-color: #e8faed;
+}
+
+.day + #currentDay {
+  background-color:#e8f4fa;
+}
+.event {
+  font-size: 10px;
+  height: 50px;
+  width: 80px;
+  background-color: red;
+  color: white;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.padding {
+  cursor: default !important;
+  background-color: #FFFCFF !important;
+  box-shadow: none !important;
+}
+#newEventModal, #deleteEventModal {
+  display: none;
+  z-index: 20;
+  padding: 25px;
+  background-color: #e8f4fa;
+  box-shadow: 0px 0px 3px black;
+  border-radius: 5px;
+  width: 350px;
+  top: 100px;
+  left: calc(50% - 175px);
+  position: absolute;
+  font-family: sans-serif;
+}
+#eventTitleInput ,#eventDescriptionInput, #radio {
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 25px;
+  border-radius: 3px;
+  outline: none;
+  border: none;
+  box-shadow: 0px 0px 3px gray;
+}
+#eventTitleInput.error {
+  border: 2px solid red;
+}
+#cancelButton, #deleteButton {
+  background-color: #d36c6c;
+}
+#saveButton, #closeButton {
+  background-color: #92a1d1;
+}
+#eventText, #eventDescription, #eventMetodology {
+  font-size: 14px;
+}
+#modalBackDrop {
+  display: none;
+  top: 0px;
+  left: 0px;
+  z-index: 10;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  background-color: rgba(0,0,0,0.8);
+}
+
+#horas {  
+  width: 40px;
+  padding: 10px 20px;
+  height:675px;
+  display: column;
+  justify-content: space-between;
+  color: #e11414;
+  background-color:#577a7c00;
+  font-size: 15 px;
+  float:left;
+  
+}
+#horas div {
+  width: 200px;
+  padding: 3.3px
+
+}
+.days {
+  width: 80px;
+  padding: 10px;
+  height: 15px;
+  display: flex;
+  margin: 3px;
+  flex-direction: row;
+  justify-content: space-between;
+}
