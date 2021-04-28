@@ -21,12 +21,12 @@ button {
 }
 #header {
   padding: 10px;
-  color: #e11818;
+  color: #d36c6c;
   font-size: 26px;
   font-family: sans-serif;
   display: flex;
   justify-content: space-between;
-  background-color: #b6ceee;#;
+  background-color: #b6ceee;
 }
 #header button {
   background-color:#92a1d1;
@@ -34,7 +34,7 @@ button {
 #container {
   width: 770px;
   float: left;
- background-color: #577a7c00;
+ background-color: #ffffff00;
 }
 #containerg {
   width: 850px;
@@ -45,13 +45,13 @@ button {
   width: 100%;
   display: flex;
   float: left;
-  color: #dc0f0f;
-  background-color: #577a7c00;
+  color: #fc0000;
+  background-color: #cd10e204;
 }
 #weekdays div {
   width: 100px;
-  padding: 5px
-
+  padding: 10px;
+  float: left;
 }
 #calendar {
   width: 100%;
@@ -59,12 +59,12 @@ button {
   display: flex;
   flex-wrap: wrap;
   float: left;
-  background-color: #ffffff00;
+  background-color: #3e10e200;
 }
 .day {
   width: 100px;
   padding: 10px;
-  height: 20px;
+  height: 25px;
   cursor: pointer;
   box-sizing: border-box;
   background-color: white;
@@ -143,19 +143,18 @@ button {
 
 #horas {  
   width: 40px;
-  padding: 10px 20px;
-  height:675px;
+  padding: 0px 10px;
+  height:830px;
   display: column;
   justify-content: space-between;
-  color: #e11414;
-  background-color:#577a7c00;
-  font-size: 15 px;
+  color: #f80d0d;
+  background-color: rgba(0, 0, 0, 0);
+  font-size: 14.4px;
   float:left;
-  
 }
 #horas div {
   width: 200px;
-  padding: 3.3px
+  padding: 6.9px;
 
 }
 .days {
